@@ -9,14 +9,14 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
+<body class="overflow-x-hidden">
 
 
     <div id="site-header" class="h-screen relative overflow-hidden  bg-ai-custom-blue">
 
         <div class="absolute  top-0 left-0  w-full z-50">
             <header class="py-6 w-full relative">
-                <div class="bg-ai-pink-blur w-72 h-72 absolute top-0 right-0 blur-pink">
+                <div class="bg-ai-pink-blur -z-10 w-72 h-72 absolute top-0 right-0 blur-pink">
 
                 </div>
                 <div class="max-w-[1240px] mx-auto px-5 w-full  flex items-center justify-between">
@@ -49,7 +49,7 @@
             <section class="w-full ">
                 <div class="max-w-[1240px] mx-auto px-5  text-center pt-24 mb-72 relative border-4 ">
                     <div
-                        class="bg-ai-blue-blur -translate-x-1/2 -translate-y-1/2  w-72 h-72 absolute top-1/2 left-1/2 blur-pink">
+                        class="bg-ai-blue-blur -translate-x-1/2 -translate-y-1/2  w-72 h-72 absolute top-1/2 left-1/2 blur-pink -z-20">
                     </div>
                     <p class="font-semibold text-base leading-5 text-white">Explore the power of AI</p>
                     <h1 class="font-semibold text-53 text-white opacity-90 mb-5"><strong class="font-extrabold">Power
@@ -58,7 +58,7 @@
                         harness the full potential of artificial
                         intelligence and drive your business forward</p>
                     <button
-                        class="pt-3 pb-3 px-6 border border-ai-white-300  rounded-full text-white  bg-btn-gradient ">Contact
+                        class="pt-3 pb-3 px-6 border border-ai-white-300  rounded-full text-white  bg-btn-gradient cursor-pointer ">Contact
                         Us</button>
                     <div class=" h-64 w-64">
                         <!-- Your content here -->
@@ -160,7 +160,12 @@
 
 
     <footer class="pb-24 pt-24 bg-ai-custom-blue relative ">
-      
+       
+        <div class="max-w-[1240px] mx-auto  px-5   relative ">
+            <div
+                class="bg-ai-pink-blur  w-72 h-72 absolute  -top-28 -right-64 blur-pink">
+            </div>
+        </div>
       
         <div       class="max-w-[1240px] mx-auto mb-28 px-5 bg-contact-gradient rounded-xl pt-16 pl-24 pr-22 pb-16 flex items-center gap-4 justify-between -mt-64">
             <div class="">
@@ -172,6 +177,7 @@
                 class=" text-custom-purple bg-white border border-ai-white-300 py-4 px-8 rounded-full text-xl">Contact
                 Us</a>
         </div>
+       
         <div class="max-w-[1240px] mx-auto  pb-3 grid grid-cols-5">
 
             <img class="w-20" src="./img/footer-logo.png" alt="">
@@ -184,7 +190,7 @@
                 </ul>
             </div>
             <div class="">
-                <h3 class="text-sm text-white opacity-30 mb-5">Quick Links</h3>
+                <h3 class="text-sm text-white opacity-30 mb-5">Products</h3>
                 <ul class="flex flex-col gap-4">
                     <li><a class="text-sm text-white opacity-70" href="#">BrushAI</a></li>
                     <li><a class="text-sm text-white opacity-70" href="#">Stable Dojo</a></li>
@@ -194,7 +200,7 @@
             </div>
 
             <div class="">
-                <h3 class="text-sm text-white opacity-30 mb-5">Quick Links</h3>
+                <h3 class="text-sm text-white opacity-30 mb-5">Legal</h3>
                 <ul class="flex flex-col gap-4">
                     <li><a class="text-sm text-white opacity-70" href="#">Privacy Policy</a></li>
                     <li><a class="text-sm text-white opacity-70" href="#">Cookie Policy</a></li>
@@ -221,11 +227,11 @@
 
 
 
-    <!-- <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
+    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
     <script
         src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
     <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
-    <script src="./js/app.js"></script> -->
+    <script src="./js/app.js"></script>
 
 </body>
 
