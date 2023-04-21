@@ -10,16 +10,16 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <div   class=" w-full overflow-hidden border-4  bg-ai-custom-blue">
+    <div style="background-image: url(./img/hero-bg.png);" id="site-header"  class=" w-full bg-cover      bg-ai-custom-blue">
         <div class="  w-full z-50 bg-hero-bg ">
-            <header class="py-6 w-full relative">
+            <header  class="py-6 w-full relative ">
                 <div class="bg-ai-pink-blur -z-10 w-72 h-72 absolute top-0 right-0 blur-pink">
                 </div>
-                <div class="max-w-[1240px] mx-auto px-5 w-full  flex items-center justify-between">
+                <div class="max-w-[1240px] mx-auto px-5 w-full  flex items-center md:justify-between">
                     <a href="#" class="flex hover:opacity-80 active:opacity-60">
-                        <img class="w-16" src="./img/site-logo.png" alt="website logo">
+                        <img class="md:w-16 w-11" src="./img/site-logo.png" alt="website logo">
                     </a>
-                    <ul class="flex  gap-14">
+                    <ul class="  gap-14 hidden md:flex">
                         <li>
                             <a class="font-medium text-sm text-white opacity-90 hover:opacity-80 active:opacity-60" href="#">
                                 Home
@@ -36,30 +36,31 @@
                             </a>
                         </li>
                     </ul>
-                    <a class="px-5 pt-2 pb-3  rounded-full text-sm border border-ai-white-300 hover:opacity-80 active:opacity-60 text-white " href="#">
+                    <a class="px-5 pt-2 pb-3  rounded-full text-sm border border-ai-white-300 hover:opacity-80 active:opacity-60 text-white  ml-auto" href="#">
                         Log in
                     </a>
+                    <button class="flex items-center ml-6">
+                        <img src="./img/menu-icon.svg" alt="">
+                    </button>
                 </div>
             </header>
-            <section class="w-full ">
-                <div class="max-w-[1240px] mx-auto px-5  text-center pt-24 mb-72 relative  ">
+            <section class="w-full  md:pt-24 pt-8 md:pb-72 pb-0">
+                <div class="max-w-[1240px] mx-auto px-5 text-left md:text-center relative  ">
                     <div
                         class="bg-ai-blue-blur -translate-x-1/2 -translate-y-1/2  w-72 h-72 absolute top-1/2 left-1/2 blur-pink -z-20">
                     </div>
-                    <p class="font-semibold text-base leading-5 text-white">Explore the power of AI</p>
-                    <h1 class="font-semibold text-53 text-white opacity-90 mb-5"><strong class="font-extrabold">Power
-                            up</strong> your business with AI
+                    <p class="font-medium md:text-base leading-5 text-white md:mb-4 mb-3 text-sm">Explore the power of AI</p>
+                    <h1 class="md:font-semibold font-light md:text-53 text-3xl  text-white opacity-90 md:mb-5 mb-4"><strong class="md:font-extrabold font-semibold">Power
+                            up</strong> your  business with AI
                     </h1>
-                    <p class="text-base text-white opacity-60 mb-10 ">Our expert AI consulting services will help you
+                    <p class="md:text-base text-sm text-white opacity-60 md:mb-10 mb-36">Our expert AI consulting services will help you
                         harness the full potential of artificial
                         intelligence and drive your business forward
                     </p>
                     <button
-                        class="pt-3 pb-3 px-6 border border-ai-white-300 hover:opacity-80 active:opacity-60  rounded-full text-white  bg-btn-gradient cursor-pointer ">Contact
+                        class="pt-3 pb-3 px-6 border border-ai-white-300 hover:opacity-80 active:opacity-60  rounded-full text-white  bg-btn-gradient cursor-pointer w-full ">Contact
                         Us</button>
-                    <div class=" h-64 w-64">
-                        <!-- Your content here -->
-                    </div>
+                  
                 </div>
             </section>
         </div>
@@ -275,10 +276,10 @@
 
 
 
-    <!-- <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
+    <script src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/build/three-min.js'></script>
     <script
         src='https://jeromeetienne.github.io/threex.terrain/examples/vendor/three.js/examples/js/SimplexNoise.js'></script>
-    <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script> -->
+    <script src='https://jeromeetienne.github.io/threex.terrain/threex.terrain.js'></script>
     <script src="./js/app.js"></script>
 </body>
 

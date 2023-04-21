@@ -6,7 +6,8 @@ module.exports = {
       backgroundImage: {
         'btn-gradient': 'linear-gradient(95.32deg, rgba(100, 30, 250, 0.37) 0%, rgba(239, 58, 255, 0.37) 114.79%), linear-gradient(0deg, rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27))',
         'contact-gradient': 'radial-gradient(62.5% 670.93% at 56.92% 62.5%, #351580 0%, #581C81 100%)',
-        "hero-bg": "linear-gradient(180deg, rgba(6, 3, 36, 0) 77.35%, rgba(5, 2, 28, 0.15) 77.35%, #05021C 100%)"
+        "hero-bg": "linear-gradient(180deg, rgba(6, 3, 36, 0) 77.35%, rgba(5, 2, 28, 0.15) 77.35%, #05021C 100%)",
+        "btn-gradient-res" : "linear-gradient(95.32deg, #290D5E 0%, #331488 0.01%, #571C8B 114.79%)"
 
       },
       backdropBlur: {
