@@ -44,6 +44,7 @@ mesh.scale.x = 3;
 mesh.scale.z = 0.2;
 mesh.scale.multiplyScalar(10);
 
+
 // Flags for arrow keys
 var keys = {
   ArrowLeft: false,
