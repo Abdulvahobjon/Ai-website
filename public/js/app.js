@@ -1,4 +1,28 @@
-let siteHeader  = document.querySelector('#site-header')
+
+
+let footerNavBtn  = document.querySelectorAll('.footer-nav-btn')
+let footerMainNav  = document.querySelectorAll('.footer-main-nav')
+let footerNav  = document.querySelectorAll('.footer-nav')
+
+
+footerNavBtn.forEach((item , index )=>{
+  item.addEventListener('click' , function(){
+    footerMainNav[index].classList.toggle("h-0")
+    footerMainNav[index].classList.toggle("!pt-0")
+    footerMainNav[index].classList.toggle("!pb-0")
+    footerMainNav[index].classList.toggle("overflow-hidden")
+    footerMainNav[index].classList.toggle("border-none")
+    footerNav[index].classList.toggle('!gap-0')
+  })
+})
+
+footerNavBtn.addEventListener('click' , function(){
+  footerMainNav.classList.toggle('hidden')
+})
+
+
+function animationFun(){
+  let siteHeader  = document.querySelector('#site-header')
 
 var renderer = new THREE.WebGLRenderer({
   antialias: true,
@@ -143,23 +167,6 @@ siteHeader.addEventListener("mouseup", function () {
 
 
 
+}
 
-let footerNavBtn  = document.querySelectorAll('.footer-nav-btn')
-let footerMainNav  = document.querySelectorAll('.footer-main-nav')
-let footerNav  = document.querySelectorAll('.footer-nav')
-
-
-footerNavBtn.forEach((item , index )=>{
-  item.addEventListener('click' , function(){
-    footerMainNav[index].classList.toggle("h-0")
-    footerMainNav[index].classList.toggle("!pt-0")
-    footerMainNav[index].classList.toggle("!pb-0")
-    footerMainNav[index].classList.toggle("overflow-hidden")
-    footerMainNav[index].classList.toggle("border-none")
-    footerNav[index].classList.toggle('!gap-0')
-  })
-})
-
-footerNavBtn.addEventListener('click' , function(){
-  footerMainNav.classList.toggle('hidden')
-})
+// animationFun()
