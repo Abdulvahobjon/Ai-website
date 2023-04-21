@@ -476,6 +476,24 @@ video {
 .relative {
   position: relative;
 }
+.-left-16 {
+  left: -4rem;
+}
+.-left-96 {
+  left: -24rem;
+}
+.-right-20 {
+  right: -5rem;
+}
+.-right-64 {
+  right: -16rem;
+}
+.-top-24 {
+  top: -6rem;
+}
+.-top-28 {
+  top: -7rem;
+}
 .left-0 {
   left: 0px;
 }
@@ -485,71 +503,20 @@ video {
 .right-0 {
   right: 0px;
 }
-.right-1\/2 {
-  right: 50%;
-}
 .top-0 {
   top: 0px;
 }
 .top-1\/2 {
   top: 50%;
 }
-.left-14 {
-  left: 3.5rem;
-}
-.-left-14 {
-  left: -3.5rem;
-}
 .top-16 {
   top: 4rem;
 }
-.-left-96 {
-  left: -24rem;
-}
-.top-24 {
-  top: 6rem;
-}
-.-top-24 {
-  top: -6rem;
-}
-.right-20 {
-  right: 5rem;
-}
-.-right-20 {
-  right: -5rem;
-}
-.top-28 {
-  top: 7rem;
-}
-.-top-28 {
-  top: -7rem;
-}
-.left-20 {
-  left: 5rem;
-}
-.-left-20 {
-  left: -5rem;
-}
-.-right-64 {
-  right: -16rem;
-}
-.-left-64 {
-  left: -16rem;
-}
-.-left-16 {
-  left: -4rem;
-}
-.bottom-32 {
-  bottom: 8rem;
-}
-.-bottom-32 {
-  bottom: -8rem;
+.z-0 {
+  z-index: 0;
 }
 .z-50 {
   z-index: 50;
-}
-.z-0 {
-  z-index: 0;
 }
 .mx-auto {
   margin-left: auto;
@@ -615,8 +582,14 @@ video {
 .h-72 {
   height: 18rem;
 }
+.h-96 {
+  height: 24rem;
+}
 .h-screen {
   height: 100vh;
+}
+.h-80 {
+  height: 20rem;
 }
 .w-12 {
   width: 3rem;
@@ -680,6 +653,18 @@ video {
 .overflow-hidden {
   overflow: hidden;
 }
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+.overflow-y-scroll {
+  overflow-y: scroll;
+}
 .rounded-full {
   border-radius: 9999px;
 }
@@ -701,6 +686,9 @@ video {
 .border-ai-white-300 {
   border-color: rgba(255, 255, 255, 0.3);
 }
+.bg-ai-blue-blur {
+  background-color: rgba(36, 0, 255, 0.36);
+}
 .bg-ai-custom-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(5 2 28 / var(--tw-bg-opacity));
@@ -717,9 +705,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-.bg-ai-blue-blur {
-  background-color: rgba(36, 0, 255, 0.36);
 }
 .bg-btn-gradient {
   background-image: linear-gradient(95.32deg, rgba(100, 30, 250, 0.37) 0%, rgba(239, 58, 255, 0.37) 114.79%), linear-gradient(0deg, rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27));
