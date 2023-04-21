@@ -3,9 +3,3 @@
 @tailwind utilities;
 
 
-
-.btn{
-  background: linear-gradient(95.32deg, rgba(100, 30, 250, 0.37) 0%, rgba(239, 58, 255, 0.37) 114.79%),
-  linear-gradient(0deg, rgba(255, 255, 255, 0.27), rgba(255, 255, 255, 0.27));
-
-}
